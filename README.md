@@ -1,7 +1,7 @@
 # Dapper + Npgsql array segfault repro
 
 ## Prerequisite
-PostgreSQL available on localhost:5432 (eg. in Podman or Docker). Either change the connection string in `Program.cs`
+PostgreSQL available on localhost:5432 (eg. in Podman or Docker). Either change the connection string in `Program.cs` or supply `PG_CONNECTION_STRING` as an environment variable.
 
 ## Running
 ```bash
